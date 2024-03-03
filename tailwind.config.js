@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#739966",
+        primaryLight:"#84ab78",
+        secondary: "#e8eaed",
+        background: "#122823"
+      },
+      backgroundImage: {
+        'jungle-bg': "url('./src/assets/images/jungle-bg.jpg')",
+        'hero-bg': "url('./src/assets/images/hero-img.png')"
+      },
+    },
   },
   plugins: [],
 }
