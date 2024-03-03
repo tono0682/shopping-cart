@@ -1,15 +1,12 @@
-import { Link } from "react-router-dom"
+import FeauturedItems from "../Components/FeaturedItems";
+import Hero from "../Components/Hero";
 
-function Home() {
-    return(
-        <div className="bg-lime-200	">
-            <h1>Home Page</h1>
-            <div className="flex-col">
-                <Link to={"shoppingcart"}>My Cart</Link>
-                <p>Page2</p>
-            </div>
-        </div>
-    )
-}
-
-export default Home
+export default function Home () {
+    return (
+      <div className="h-full flex flex-col justify-center items-center gap-4">
+        <Hero />
+        <FeauturedItems />
+      </div>
+    );
+  }
+  
