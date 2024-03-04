@@ -1,4 +1,4 @@
-# Ecommerce Shopping Cart 🛒
+# Ecommerce Shopping Cart 🛒 [view live](https://shopping-cart-7r8fy6y0d-tono0682.vercel.app)
 
 Welcome to the Ecommerce Shopping Cart project! This application utilises a fake store API from [DummyJSON](https://dummyjson.com/) to create a simulated online shopping experience. 
 
