@@ -30,7 +30,7 @@ function ShoppingCart() {
                 <h1 className="text-primary text-4xl font-bold m-5">YOUR CART IS EMPTY</h1>
                 <p>Once you add something to your cart - it will appear here! Ready to start shopping?</p>
                 <Link
-                    to={"/"}
+                    to={"/shop"}
                     className="inline-block mt-5 bg-primary hover:bg-primaryLight text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" 
                 >
                     Start Shopping
