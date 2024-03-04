@@ -6,7 +6,7 @@ const ContactPage = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 justify-center gap-x-8 gap-y-4 bg-white p-10 rounded-xl w-full max-w-[850px]">
         <h1 className="col-span-1 sm:col-span-2 text-4xl font-bold text-primary">Contact Us!</h1>
         <section className="flex justify-center">
-          <img src="/public/images/contact-image.png" alt="" className="max-h-[150px] sm:max-h-[400px]"/>
+          <img src="/dist/images/contact-image.png" alt="" className="max-h-[150px] sm:max-h-[400px]"/>
         </section>
         <section>
           <form className="flex flex-col gap-2">
