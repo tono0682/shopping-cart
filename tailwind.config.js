@@ -13,7 +13,7 @@ export default {
         background: "#122823"
       },
       backgroundImage: {
-        'jungle-bg': "url('./public/images/jungle-bg.jpg')",
+        'jungle-bg': "url('/src/assets/images/jungle-bg.jpg')",
       },
     },
   },
